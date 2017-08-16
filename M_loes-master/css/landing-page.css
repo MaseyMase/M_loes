@@ -188,28 +188,33 @@ p.copyright {
 
 }
 
-#about {
+.jumbotron {
   margin-top: 100px;
   margin-bottom: 100px;
   background-color: #f8f8f8;
   text-align: center;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 16px;
   padding-top:50px;
   padding-bottom: 50px;
 }
 
-#about img {
-  width: 30%;
-  border-radius: 5px;
-  float: left;
-  overflow:hidden;
+.jumbotron h1 {
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#about p {
-  text-align: right;
-
+.jumbotron hr {
+    margin-left: auto;
+    margin-right: auto;    
+}
+.jumbotron .foto {
+    height: 200px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
 }
 
 #contact-form {
@@ -225,3 +230,4 @@ p.copyright {
     -webkit-box-shadow: 10px 10px 5px 0px rgba(255,87,34,1);
 -moz-box-shadow: 10px 10px 5px 0px rgba(255,87,34,1);
 box-shadow: 10px 10px 5px 0px rgba(255,87,34,1);
+}
